@@ -12,7 +12,7 @@ My homelab is built with high availability, security, and automation in mind.
 
 ---
 
-## Running Services (Docker)
+##Running Services (Docker)
 
 Most of my services are containerized using Docker and managed via Docker Compose. You can find the configurations in the `docker/` directory:
 
