@@ -7,6 +7,9 @@ Welcome to my homelab repository! This project serves as my personal playground 
 My homelab is built with high availability, security, and automation in mind.
 
 * **Hypervisor:** Proxmox VE
+* **Compute Layer (Virtual Machines & LXC):**
+  * `LXC-Pihole` (Debian): Dedicated lightweight Linux Container for primary DNS.
+  * VMs will be listet Later.
 * **Storage:** Centralized NAS with automated backups
 * **Network:** Physical firewall with strict VLAN segmentation (Management, Trusted, IoT, DMZ)
 
