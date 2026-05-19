@@ -1,6 +1,6 @@
 # Livio's Homelab Infrastructure
 
-Welcome to my homelab repository! This project serves as my personal playground and production environment to test, learn, and implement modern IT infrastructure, automation, and networking concepts.
+Welcome to my homelab repository! This project serves as my personal playground and production environment to test, learn, destroy and implement modern IT infrastructure, automation, and networking concepts.
 
 ## Architecture Overview
 
