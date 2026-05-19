@@ -1,4 +1,4 @@
-# Livio's Homelab Infrastructure
+# ⚙️ Livio's Homelab Infrastructure
 
 Welcome to my homelab repository! This project serves as my personal playground and production environment to test, learn, destroy and implement modern IT infrastructure, automation, and networking concepts.
 
