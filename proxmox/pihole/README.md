@@ -8,7 +8,7 @@ Instead of running my primary DNS server inside Docker, I decided to deploy Pi-h
 * **Base OS:** Debian 12
 * **Resources Allocated:** 1 vCPU, 512 MB RAM, 8 GB Storage
 
-## 🚀 Installation Steps
+## Installation Steps
 
 The container was provisioned and updated, followed by the official network installation script:
 
