@@ -14,7 +14,7 @@ My homelab is built with high availability, security, and automation in mind.
 
 ## Running Services (Docker)
 
-All services are containerized using Docker and managed via Docker Compose. You can find the configurations in the `docker/` directory:
+Most of my services are containerized using Docker and managed via Docker Compose. You can find the configurations in the `docker/` directory:
 
 * **`proxy/` (caddy):** Handles reverse proxying and automated Let's Encrypt SSL certificates.
 * **`pihole/`:** Network-wide DNS server and ad-blocking.
