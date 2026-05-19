@@ -5,7 +5,7 @@ Instead of running my primary DNS server inside Docker, I decided to deploy Pi-h
 ## Environment Details
 * **Hypervisor:** Proxmox VE
 * **Container Type:** LXC (Unprivileged)
-* **Base OS:** Debian 12
+* **Base OS:** Debian 11
 * **Resources Allocated:** 1 vCPU, 512 MB RAM, 8 GB Storage
 
 ## Installation Steps
