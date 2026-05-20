@@ -4,10 +4,9 @@ services:
     container_name: vaultwarden
     restart: unless-stopped
     environment:
-      DOMAIN: "https://your.domain"   # <-- DEINE EXTERNE DOMAIN
-      ROCKET_ADDRESS: "0.0.0.0"            # <-- AN ALLEN SCHNITTSTELLEN LAUSCHEN
-      # ROCKET_PORT: 80                    # <-- OPTIONAL, WENN ABWEICHEND
+      DOMAIN: "https://your.domain"
+      ROCKET_ADDRESS: "0.0.0.0"
     ports:
-      - "80:80"  # ODER EIN ANDERER PORT, WIE 8080:80
+      - "80:80"
     volumes:
       - ./vw-data:/data
