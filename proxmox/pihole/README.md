@@ -6,7 +6,7 @@ This directory documents the deployment and configuration of Pi-hole, which serv
 
 Unlike the application microservices, Pi-hole is deployed as a dedicated, lightweight **Linux Container (LXC)** directly on top of Proxmox VE (`pve01`). 
 
-* **OS / Environment:** Debian 12 (Bookworm) minimal footprint instance.
+* **OS / Environment:** Debian 11 minimal footprint instance.
 * **Resource Allocation:** 512 MB RAM / 1 vCPU / 8 GB Storage (optimized for high-throughput DNS caching).
 
 ## 🛡️ Core Functionalities inside the Lab
