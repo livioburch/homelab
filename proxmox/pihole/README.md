@@ -1,4 +1,4 @@
-# 🦫 Pi-hole – Network-Wide DNS & Telemetry Hardening
+# 🕳️ Pi-hole – Network-Wide DNS & Telemetry Hardening
 
 This directory documents the deployment and configuration of Pi-hole, which serves as the primary upstream DNS server and ad-blocker for my entire homelab infrastructure.
 
