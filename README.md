@@ -17,13 +17,13 @@ My homelab is built with high availability, security, and automation in mind.
 
 ---
 
-## Running Services (Docker)
+## 📦 Running Services (Docker)
 
 Most of my services are containerized using Docker and managed via Docker Compose. You can find the configurations in the `docker/` directory:
 
-* **`proxy/` (caddy):** Handles reverse proxying and automated Let's Encrypt SSL certificates.
-* **`pihole/`:** Network-wide DNS server and ad-blocking.
-More comming SOON!
+* 📂 **`docker/caddy/`**: Handles global reverse proxying, secure microservice routing, and automated Let's Encrypt SSL certificates.
+* 📂 **`docker/vaultwarden/`**: Self-hosted instance of the Bitwarden-compatible password manager, providing secure, end-to-end encrypted credential storage for all devices.
+* 📂 **`docker/arr-stack/`**: Fully automated media acquisition and cataloging pipeline built with strict deployment standards.
 
 ---
 
