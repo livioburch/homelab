@@ -1,0 +1,8 @@
+subdomain1.yourdomain.com {
+    reverse_proxy X.X.X.X:8000
+
+subdomain2.yourdomain.com {
+    reverse_proxy X.X.X.X:80
+
+    tls your-email@example.com
+}
