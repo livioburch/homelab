@@ -8,8 +8,10 @@ My homelab is built with high availability, security, and automation in mind.
 
 * **Hypervisor:** Proxmox VE
 * **Compute Layer (Virtual Machines & LXC):**
-  * `LXC-Pihole` (Debian): Dedicated lightweight Linux Container for primary DNS.
-  * VMs will be listet Later.
+  * `LXC-pihole` (Debian): Dedicated lightweight Linux Container for primary DNS.
+  * `VM-arr-stack` (Debian): Media Automation & Core I/O Download Clients
+  * `VM-vaultwarden` (Debian): Self-hosted, end-to-end encrypted Bitwarden password server
+  * `VM-proxy-monitoring` (Debian): Caddy & Centralized Monitoring (Monitoring not online, still in progress)
 * **Storage:** Centralized NAS with automated backups
 * **Network:** Physical firewall with strict VLAN segmentation (Management, Trusted, IoT, DMZ)
 
